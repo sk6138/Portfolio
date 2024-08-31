@@ -1,0 +1,28 @@
+.about-me {
+    padding: 60px 20px;
+    background-color: #F5F5DC; /* White background */
+    color: #2C3E50; /* Dark Blue text */
+    text-align: center;
+}
+
+.about-me .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-me h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #2C3E50; /* Navy */
+}
+
+.about-me p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #7F8C8D; /* Slightly darker text for better readability */
+}
+
+.about-me p:last-child {
+    margin-bottom: 0;
+}

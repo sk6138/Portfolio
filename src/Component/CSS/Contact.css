@@ -1,0 +1,84 @@
+.contact-me {
+    padding: 60px 20px;
+    background-color: #F5F5DC; /* Very Light Beige */
+    color: #2C3E50; /* Dark Blue text */
+    text-align: center;
+}
+
+.contact-me .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-me h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #2C3E50; /* Navy */
+}
+
+.contact-me p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #7F8C8D;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-group label {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #2C3E50;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #2C3E50;
+    font-size: 1rem;
+    color: #7F8C8D;
+    background-color: #F5F5DC; /* Very Light Beige */
+}
+
+button {
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: #2C3E50;
+    color: #7F8C8D;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    color: #F5F5DC; /* Dodger Blue */
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a {
+    color: #2C3E50;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #7F8C8D; 
+}

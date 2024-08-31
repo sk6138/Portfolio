@@ -1,0 +1,89 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .logo {
+    height: 50px;
+    width: 50px;
+      background: url('../../../public/Plogo.webp') no-repeat center center/cover;
+     border-radius: 50%;
+      /* color: white; */
+    
+    /* font-size: 24px;
+    color: #2C3E50; */
+     /* Dark navy blue for the logo */
+    /* font-family: 'Montserrat', sans-serif; Primary font for the logo */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    /* font-family: 'Roboto', sans-serif; Secondary font for links */
+  }
+  
+  .nav-links li {
+    font-size: 18px;
+  }
+  
+  .nav-links li a {
+    color: #2C3E50; /* Dark navy blue for the links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #29292a; /* Medium to dark gray for hover effect */
+  }
+  
+  /* Hamburger Toggle Button */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 3px;
+  }
+  
+  .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #2C3E50; /* Dark navy blue for the hamburger lines */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+        background-color: #F5F5DC; /* Light beige background for mobile */
+        display: none;
+        font-size: 16px; /* Smaller font size for mobile */
+    }
+  
+    .nav-links li {
+        text-align: center;
+        padding: 10px;
+        color: #2C3E50; /* Dark navy blue for mobile links */
+    }
+  
+    .hamburger {
+        display: flex;
+    }
+  
+    .navbar.active .nav-links {
+        display: flex;
+    }
+  }
+
